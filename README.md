@@ -44,6 +44,7 @@
 - Brute Force Algorithms are exactly what they sound like straightforward methods of solving a problem that rely on sheer computing power and trying every possibility rather than advanced techniques to improve efficiency.
 - A brute force approach is an approach that `finds all the possible solutions` to find a satisfactory solution to a given problem. The brute force algorithm `tries out all the possibilities` till a satisfactory solution is not found.
 
+<!-- TODO: Code Examples -->
 
 [Find substring](https://www.youtube.com/watch?v=M9azY7YyMqI&list=PL3edoBgC7ScV9WPytQ2dtso21YrTuUSBd)
 
@@ -52,10 +53,15 @@ A greedy algorithm is an approach for solving a problem by `selecting the best o
 
 The algorithm never reverses the earlier decision even if the choice is wrong. It works in a top-down approach.
 
+<!-- TODO: Code Examples -->
+
 ### Dynamic Programming
 - Dynamic programming is a technique that `breaks the problems into sub-problems`, and `saves the result` for future purposes so that we do not need to compute the result again. The subproblems are optimized to optimize the overall solution is known as optimal substructure property. `The main use of dynamic programming is to solve optimization problems`. Here, optimization problems mean that when we are trying to find out the minimum or the maximum solution of a problem. The dynamic programming guarantees to find the optimal solution of a problem if the solution exists.
 
 - Dynamic Programming is mainly `an optimization over plain recursion`. Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming. `The idea is to simply store the results of subproblem`, so that we do not have to re-compute them when needed later. This simple optimization `reduces time complexities from exponential to polynomial`.
+
+<!-- TODO: Code Examples -->
+
 
 ### divide and Conquer
 Divide and Conquer is an algorithmic pattern. In algorithmic methods, the design is to take a dispute on a huge input, break the input into minor pieces, decide the problem on each of the small pieces, and then merge the piecewise solutions into a global solution. This mechanism of solving the problem is called the Divide & Conquer Strategy.
@@ -75,8 +81,8 @@ Examples:
 - Sorting (merge sort, quick sort)
 - Maximum and Minimum Problem
 - Tower of Hanoi.
+<!-- TODO: Code Examples -->
 
-<!-- ## Common Patterns -->
 
 ### Backtracking
 Backtracking is one of the techniques that can be used to solve the problem. We can write the algorithm using this strategy. 
@@ -89,6 +95,8 @@ Backtracking can be defined as a general algorithmic technique that `considers s
 
 Example:
 [Generate Parentheses](https://youtu.be/Peq4GCPNC5c?t=1602)
+
+<!-- TODO: Code Examples -->
 
 ### Frequency Counter
 [link to an article](https://medium.com/nerd-for-tech/problem-solving-patterns-frequency-counter-20205a1ecfb7)
