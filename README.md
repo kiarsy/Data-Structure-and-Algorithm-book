@@ -156,6 +156,8 @@ function validAnagram(str1: string, str2: string): boolean {
 
 [Read More](https://medium.com/@seanoughton/problem-solving-patterns-multiple-pointers-2dae827d154d)
 
+[Read More](https://python.plainenglish.io/maximum-sum-subarray-using-sliding-window-technique-8667ca805a02)
+
 Create `pointers or values` that correspond to an `index or position` and move `towards the beginning`, `end` or `middle` based on a `certain condition`. You can use it on some sort of linear structure, like an array, string or a linked list, to search for a pair of values, or searching for something that meets a condition. You use two reference points in the linear structure, and you work toward the middle.
 
 **Example:** Write a function called sumZero which accepts a sorted array of integers. The function should find the first pair, where the sum is 0. Return an array that includes both values that sum to zero or undefined if a pair does not exist. This will only work with a sorted array. You move one pointer at a time, one side at a time. You move one pointer and test, then if the test is returns false, you move the other pointer and test.
