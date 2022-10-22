@@ -48,8 +48,7 @@
 - A brute force approach is an approach that `finds all the possible solutions` to find a satisfactory solution to a given problem. The brute force algorithm `tries out all the possibilities` till a satisfactory solution is not found.
 <!-- TODO: Code Examples -->
 
-**Examples:**
-[Find substring](https://www.youtube.com/watch?v=M9azY7YyMqI&list=PL3edoBgC7ScV9WPytQ2dtso21YrTuUSBd)
+**Example:** [Find substring](https://www.youtube.com/watch?v=M9azY7YyMqI&list=PL3edoBgC7ScV9WPytQ2dtso21YrTuUSBd)
 
 **Example:** Knapsack problem [link](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)
 ```javascript 
