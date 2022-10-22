@@ -21,12 +21,12 @@
     - [Linear Search](#linear-search)
     - [Binary Search](#binary-search)
 - [Data Structure](#data-structure)
-  - [Queue](#queue)
-  - [Stack](#stack)
-  - [Array](#array)
-  - [HashList](#hashlist)
-  - [Tree](#tree)
-    - [Heap](#heap)
+    - [Queue](#queue)
+    - [Stack](#stack)
+    - [Array](#array)
+    - [HashList](#hashlist)
+    - [Tree](#tree)
+      - [Heap](#heap)
 - [Challenges](#challenges)
 
 
@@ -76,11 +76,11 @@ Also there are some other sorting mention below that worse to know.
 
 # Data Structure
 
-## Queue
-## Stack
-## Array
-## HashList
-## Tree
-### Heap
+### Queue
+### Stack
+### Array
+### HashList
+### Tree
+#### Heap
 
 # Challenges
