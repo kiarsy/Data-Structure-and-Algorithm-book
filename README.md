@@ -38,9 +38,9 @@ Dynamic Programming is mainly an optimization over plain recursion. Wherever we 
 ## Sort
 Also there are some other sorting metion below that worse to know.
 > Heap sort
-Counting sort
-Radix sort
-Bucket sort
+> Counting sort
+> Radix sort
+> Bucket sort
 
 ### Selection sort
 ### Bubble sort
