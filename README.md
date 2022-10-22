@@ -36,7 +36,7 @@ The algorithm never reverses the earlier decision even if the choice is wrong. I
 Dynamic Programming is mainly an optimization over plain recursion. Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming. The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later. This simple optimization reduces time complexities from exponential to polynomial.
 
 ## Sort
-
+Also there are some other sorting metion below that worse to know.
 > Heap sort
 Counting sort
 Radix sort
