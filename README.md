@@ -2,10 +2,10 @@
 **Table of Content**
 - [Algorithms](#algorithms)
   - [General Approaches](#general-approaches)
-    - [Backtracking](#backtracking)
     - [Greedy](#greedy)
     - [Dynamic Programming](#dynamic-programming)
   - [Common Patterns](#common-patterns)
+    - [Backtracking](#backtracking)
     - [Frequency Counter](#frequency-counter)
     - [Multiple Pointers](#multiple-pointers)
     - [Sliding Window](#sliding-window)
@@ -33,8 +33,6 @@
 # Algorithms
 
 ## General Approaches
-### Backtracking
-Backtracking can be defined as a general algorithmic technique that considers searching every possible combination in order to solve a computational problem. 
 
 ### Greedy
 A greedy algorithm is an approach for solving a problem by selecting the best option available at the moment. It doesn't worry whether the current best result will bring the overall optimal result.
@@ -46,6 +44,8 @@ Dynamic Programming is mainly an optimization over plain recursion. Wherever we 
 
 ## Common Patterns
 
+### Backtracking
+Backtracking can be defined as a general algorithmic technique that considers searching every possible combination in order to solve a computational problem. 
 ### Frequency Counter
 ### Multiple Pointers
 ### Sliding Window
