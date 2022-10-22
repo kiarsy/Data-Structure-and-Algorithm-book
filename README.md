@@ -105,8 +105,7 @@ One of the most helpful problem solving patterns in computer science is known as
 
 Often, using a frequency counter will `help to avoid using a nested loop`, thus reducing the time complexity of our algorithm. Frequency counters can easily take an operation that would be `O(N²) down to a much more palatable O(N)`. The reason that it can be applied to problems that arrays and strings specifically is because strings are considered array-like objects in JavaScript, therefore you can both access and perform operations on an index of a string with the exact same syntax you could use on an array.
 
-`Check two arrays have all of each others value?`
-O(n)
+**Example:** Check two arrays have all of each others value? O(n)
 ```javascript
 function sameSquared(firstArr, secondArr) {
   if (!firstArr || !secondArr) return false;
@@ -159,7 +158,7 @@ function validAnagram(str1: string, str2: string): boolean {
 
 Create `pointers or values` that correspond to an `index or position` and move `towards the beginning`, `end` or `middle` based on a `certain condition`. You can use it on some sort of linear structure, like an array, string or a linked list, to search for a pair of values, or searching for something that meets a condition. You use two reference points in the linear structure, and you work toward the middle.
 
-**Example problem**: Write a function called sumZero which accepts a sorted array of integers. The function should find the first pair, where the sum is 0. Return an array that includes both values that sum to zero or undefined if a pair does not exist. This will only work with a sorted array. You move one pointer at a time, one side at a time. You move one pointer and test, then if the test is returns false, you move the other pointer and test.
+**Example:** Write a function called sumZero which accepts a sorted array of integers. The function should find the first pair, where the sum is 0. Return an array that includes both values that sum to zero or undefined if a pair does not exist. This will only work with a sorted array. You move one pointer at a time, one side at a time. You move one pointer and test, then if the test is returns false, you move the other pointer and test.
 
 O(n)
 ```javascript
