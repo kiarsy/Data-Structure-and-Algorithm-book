@@ -1,7 +1,7 @@
 
 **Table of Content**
 - [Algorithms](#algorithms)
-  - [General Approaches](#general-approaches)
+  - [Algorithms and techniques](#algorithms-and-techniques)
     - [Brute Force](#brute-force)
     - [Recursive](#recursive)
       - [Greedy](#greedy)
@@ -38,7 +38,7 @@
 
 # Algorithms
 
-## General Approaches
+## Algorithms and techniques
 
 ### Brute Force
 
