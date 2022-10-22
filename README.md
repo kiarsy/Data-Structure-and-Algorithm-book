@@ -42,7 +42,7 @@
 
 ### Brute force
 - Brute Force Algorithms are exactly what they sound like straightforward methods of solving a problem that rely on sheer computing power and trying every possibility rather than advanced techniques to improve efficiency.
-- A brute force approach is an approach that finds all the possible solutions to find a satisfactory solution to a given problem. The brute force algorithm tries out all the possibilities till a satisfactory solution is not found.
+- A brute force approach is an approach that `finds all the possible solutions` to find a satisfactory solution to a given problem. The brute force algorithm `tries out all the possibilities` till a satisfactory solution is not found.
 
 
 [Find substring](https://www.youtube.com/watch?v=M9azY7YyMqI&list=PL3edoBgC7ScV9WPytQ2dtso21YrTuUSBd)
@@ -79,9 +79,13 @@ Examples:
 <!-- ## Common Patterns -->
 
 ### Backtracking
-- Backtracking is one of the techniques that can be used to solve the problem. We can write the algorithm using this strategy. It uses the Brute force search to solve the problem, and the brute force search says that for the given problem, we try to make all the possible solutions and pick out the best solution from all the desired solutions. This rule is also followed in dynamic programming, but dynamic programming is used for solving optimization problems. In contrast, backtracking is not used in solving optimization problems. Backtracking is used when `we have multiple solutions`, and we `require all those solutions`.
+Backtracking is one of the techniques that can be used to solve the problem. We can write the algorithm using this strategy. 
 
-- Backtracking can be defined as a general algorithmic technique that considers searching every possible combination in order to solve a computational problem.
+It uses the `Brute force search` to solve the problem, and the brute force search says that for the given problem, we `try to make all the possible solutions` and `pick out the best solution from all the desired solutions`. 
+
+This rule is also followed in dynamic programming, but dynamic programming is used for solving optimization problems. In contrast, backtracking is not used in solving optimization problems. Backtracking is used when `we have multiple solutions`, and we `require all those solutions`.
+
+Backtracking can be defined as a general algorithmic technique that `considers searching every possible combination` in order to solve a computational problem.
 
 Example:
 [Generate Parentheses](https://youtu.be/Peq4GCPNC5c?t=1602)
