@@ -48,7 +48,7 @@
 [Find substring](https://www.youtube.com/watch?v=M9azY7YyMqI&list=PL3edoBgC7ScV9WPytQ2dtso21YrTuUSBd)
 
 ### Greedy
-A greedy algorithm is an approach for solving a problem by selecting the best option available at the moment. It doesn't worry whether the current best result will bring the overall optimal result.
+A greedy algorithm is an approach for solving a problem by `selecting the best option available at the moment`. It doesn't worry whether the current best result will bring the overall optimal result.
 
 The algorithm never reverses the earlier decision even if the choice is wrong. It works in a top-down approach.
 
