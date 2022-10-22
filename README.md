@@ -99,7 +99,7 @@ Example:
 <!-- TODO: Code Examples -->
 
 ### Frequency Counter
-[Read More](https://medium.com/nerd-for-tech/problem-solving-patterns-frequency-counter-20205a1ecfb7)
+> [Read More](https://medium.com/nerd-for-tech/problem-solving-patterns-frequency-counter-20205a1ecfb7)
 
 One of the most helpful problem solving patterns in computer science is known as the frequency counter pattern. Commonly used on `arrays` and `strings`, it is named frequency counter because when we use it, `we create an object or set to store the elements in our string or array, along with how many times they occur in that string or array`. More specifically, the element is usually a key in the object, and the value for that key is how many times that element is found.
 
@@ -152,11 +152,11 @@ function validAnagram(str1: string, str2: string): boolean {
 ```
 ### Multiple Pointers
 
-[Read More](https://medium.com/@kasiarosenb/algorithms-multiple-pointers-9843e1b5f1e1)
+> [Read More](https://medium.com/@kasiarosenb/algorithms-multiple-pointers-9843e1b5f1e1)
 
-[Read More](https://medium.com/@seanoughton/problem-solving-patterns-multiple-pointers-2dae827d154d)
+> [Read More](https://medium.com/@seanoughton/problem-solving-patterns-multiple-pointers-2dae827d154d)
 
-[Read More](https://python.plainenglish.io/maximum-sum-subarray-using-sliding-window-technique-8667ca805a02)
+> [Read More](https://python.plainenglish.io/maximum-sum-subarray-using-sliding-window-technique-8667ca805a02)
 
 Create `pointers or values` that correspond to an `index or position` and move `towards the beginning`, `end` or `middle` based on a `certain condition`. You can use it on some sort of linear structure, like an array, string or a linked list, to search for a pair of values, or searching for something that meets a condition. You use two reference points in the linear structure, and you work toward the middle.
 
@@ -226,7 +226,7 @@ function countUniqueValues(arr: number[]): number {
 ```
 
 ### Sliding Window
-[Read More](https://sarahdepalo.hashnode.dev/algorithm-patterns-sliding-window)
+> [Read More](https://sarahdepalo.hashnode.dev/algorithm-patterns-sliding-window)
 
 The sliding window technique essentially involves creating a window which can either be an array or number that “slides” from one position to another. Depending on a certain condition, the window will either increase or close (creating a new window). This technique is `useful for keeping track of a subset of contiguous data in an array or string`. Common examples of when you might use this technique include finding the `longest sequence of unique characters`, calculating the `max sum of consecutive elements` in an array, and much more.
 
@@ -294,7 +294,7 @@ Also there are some other sorting mention below that worse to know.
 ## Search
 
 ### Linear Search
-[Read More](https://github.com/tajpouria/algorithms-and-data-structures-cheat-sheet)
+> [Read More](https://github.com/tajpouria/algorithms-and-data-structures-cheat-sheet)
 
 **Example:** O(n)
 ```javascript
