@@ -21,10 +21,13 @@
     - [Linear Search](#linear-search)
     - [Binary Search](#binary-search)
 - [Data Structure](#data-structure)
+    - [Array](#array)
+    - [Linked List](#linked-list)
+      - [Singly Linked List](#singly-linked-list)
+      - [Double Linked List](#double-linked-list)
     - [Set](#set)
     - [Queue](#queue)
     - [Stack](#stack)
-    - [Array](#array)
     - [HashList](#hashlist)
       - [Without Bucket](#without-bucket)
       - [With Bucket](#with-bucket)
@@ -78,11 +81,13 @@ Also there are some other sorting mention below that worse to know.
 
 
 # Data Structure
-
+### Array
+### Linked List
+#### Singly Linked List
+#### Double Linked List
 ### Set
 ### Queue
 ### Stack
-### Array
 ### HashList
 #### Without Bucket
 #### With Bucket
