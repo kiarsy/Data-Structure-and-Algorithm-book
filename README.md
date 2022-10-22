@@ -45,7 +45,7 @@
 - A brute force approach is an approach that finds all the possible solutions to find a satisfactory solution to a given problem. The brute force algorithm tries out all the possibilities till a satisfactory solution is not found.
 
 
-[Find substring]([https://](https://www.youtube.com/watch?v=M9azY7YyMqI&list=PL3edoBgC7ScV9WPytQ2dtso21YrTuUSBd))
+[Find substring](https://www.youtube.com/watch?v=M9azY7YyMqI&list=PL3edoBgC7ScV9WPytQ2dtso21YrTuUSBd)
 
 ### Greedy
 A greedy algorithm is an approach for solving a problem by selecting the best option available at the moment. It doesn't worry whether the current best result will bring the overall optimal result.
@@ -84,10 +84,10 @@ Examples:
 - Backtracking can be defined as a general algorithmic technique that considers searching every possible combination in order to solve a computational problem.
 
 Example:
-[Generate Parentheses]([https://](https://youtu.be/Peq4GCPNC5c?t=1602))
+[Generate Parentheses](https://youtu.be/Peq4GCPNC5c?t=1602)
 
 ### Frequency Counter
-[link to a article]([https://](https://medium.com/nerd-for-tech/problem-solving-patterns-frequency-counter-20205a1ecfb7))
+[link to a article](https://medium.com/nerd-for-tech/problem-solving-patterns-frequency-counter-20205a1ecfb7)
 
 One of the most helpful problem solving patterns in computer science is known as the frequency counter pattern. Commonly used on `arrays` and `strings`, it is named frequency counter because when we use it, `we create an object or set to store the elements in our string or array, along with how many times they occur in that string or array`. More specifically, the element is usually a key in the object, and the value for that key is how many times that element is found.
 
@@ -143,7 +143,7 @@ function validAnagram(str1: string, str2: string): boolean {
 
 [link to a article](https://medium.com/@kasiarosenb/algorithms-multiple-pointers-9843e1b5f1e1)
 
-[link to a article]([https://](https://medium.com/@seanoughton/problem-solving-patterns-multiple-pointers-2dae827d154d))
+[link to a article](https://medium.com/@seanoughton/problem-solving-patterns-multiple-pointers-2dae827d154d)
 
 Create `pointers or values` that correspond to an `index or position` and move `towards the beginning`, `end` or `middle` based on a `certain condition`. You can use it on some sort of linear structure, like an array, string or a linked list, to search for a pair of values, or searching for something that meets a condition. You use two reference points in the linear structure, and you work toward the middle.
 
