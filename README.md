@@ -52,13 +52,11 @@
 [Find substring](https://www.youtube.com/watch?v=M9azY7YyMqI&list=PL3edoBgC7ScV9WPytQ2dtso21YrTuUSBd)
 
 **Example:** Knapsack problem [link](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)
-> Time Complexity: O(2n).
-
-> Auxiliary Space :O(1) + O(N).
-
-As no extra data structure has been used for storing values but O(N) auxiliary stack space(ASS) has been used for recursion stack.
-
 ```javascript 
+//  Time Complexity: O(2n).
+//  Auxiliary Space :O(1) + O(N).
+// As no extra data structure has been used for storing values but O(N) auxiliary stack space(ASS) has been used for recursion stack.
+
     function max(a, b)
     {
          return (a > b) ? a : b;
@@ -182,7 +180,6 @@ class GFG {
 }
 
 ```
-<!-- TODO: Code Examples -->
 
 #### Dynamic Programming
 - Dynamic programming is a technique that `breaks the problems into sub-problems`, and `saves the result` for future purposes so that we do not need to compute the result again. The subproblems are optimized to optimize the overall solution is known as optimal substructure property. `The main use of dynamic programming is to solve optimization problems`. Here, optimization problems mean that when we are trying to find out the minimum or the maximum solution of a problem. The dynamic programming guarantees to find the optimal solution of a problem if the solution exists.
@@ -192,9 +189,6 @@ class GFG {
 <!-- TODO: Code Examples -->
 
 **Example:**  Fibonacci numbers calculated [link](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/)
-
-
-
 
 
 ```javascript
