@@ -309,7 +309,7 @@ function linearSearch(arr: number[], value: number): number {
 ```
 
 ### Binary Search
-[Read More](https://github.com/tajpouria/algorithms-and-data-structures-cheat-sheet)
+> [Read More](https://github.com/tajpouria/algorithms-and-data-structures-cheat-sheet)
 
 **Example:** O(log n)
 ```javascript
