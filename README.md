@@ -294,8 +294,43 @@ Also there are some other sorting mention below that worse to know.
 ## Search
 
 ### Linear Search
-### Binary Search
+[Read More](https://github.com/tajpouria/algorithms-and-data-structures-cheat-sheet)
 
+**Example:** O(n)
+```javascript
+function linearSearch(arr: number[], value: number): number {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === value) {
+            return i;
+        }
+        return -1;
+    }
+}
+```
+
+### Binary Search
+[Read More](https://github.com/tajpouria/algorithms-and-data-structures-cheat-sheet)
+
+**Example:** O(log n)
+```javascript
+function binarySearch(sortedArr: number[], value: number): number {
+    let left = 0;
+    let right = sortedArr.length - 1;
+
+    while (left <= right) {
+        const middle = Math.round((right + left) / 2);
+
+        if (sortedArr[middle] > value) {
+            right = middle - 1;
+        } else if (sortedArr[middle] < value) {
+            left = middle + 1;
+        } else {
+            return middle;
+        }
+    }
+    return -1;
+}
+```
 
 # Data Structure
 ### Array
