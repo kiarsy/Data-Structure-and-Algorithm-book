@@ -126,6 +126,7 @@ This is because these systems are not designed for testability, the architecture
     This layer make use of services to interact to business. ex RestController, Socket, or UnitTest
 
 3. **Infrastructure**
+
     Infrastructure implement the secondary ports as adapters to link to external resources. ex: Database
 
 
