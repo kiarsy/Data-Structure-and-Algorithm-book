@@ -6,7 +6,7 @@
     - [Recursive](#recursive)
       - [Greedy](#greedy)
       - [Dynamic Programming](#dynamic-programming)
-      - [divide and Conquer](#divide-and-conquer)
+      - [Divide and Conquer](#divide-and-conquer)
       - [Backtracking](#backtracking)
     - [Frequency Counter](#frequency-counter)
     - [Multiple Pointers](#multiple-pointers)
@@ -265,7 +265,7 @@ function fib(n)
     console.log(knapSack(W, wt, val, n));
 ```
 
-#### divide and Conquer
+#### Divide and Conquer
 Divide and Conquer is an algorithmic pattern. In algorithmic methods, the design is to take a dispute on a huge input, break the input into minor pieces, decide the problem on each of the small pieces, and then merge the piecewise solutions into a global solution. This mechanism of solving the problem is called the Divide & Conquer Strategy.
 
 Divide and Conquer algorithm consists of a dispute using the following three steps.
