@@ -112,20 +112,20 @@ This is because these systems are not designed for testability, the architecture
 
 2. All the **ports and adapters** related to **outbound** with are depend on infrastructure called **Secondary**. ex. **Repository**
 ### Layers
-1. Core
+1. **Core**
   
-Consist of *Domain*, *primary and secondary ports* and *use cases*.
+    Consist of *Domain*, *primary and secondary ports* and *use cases*.
 
-Domain consist of *Entity*.
+    Domain consist of *Entity*.
 
-Use cases can be *Service that implement primary ports*, (*Services*, or use case)
+    Use cases can be *Service that implement primary ports*, (*Services*, or use case)
 
-All the business logic is in this layer
-1. Application
+    *All the business logic is in this layer*
+2. **Application**
 
 This layer make use of services to interact to business. ex RestController, Socket, or UnitTest
 
-3. Infrastructure
+3. **Infrastructure**
 Infrastructure implement the secondary ports as adapters to link to external resources. ex: Database
 
 
