@@ -1,8 +1,13 @@
-
 **Table of Content**
-- [Algorithms](#algorithms)
-  - [Algorithms and techniques](#algorithms-and-techniques)
-- [Challenges](#challenges)
+- [Clean Architectures](#clean-architectures)
+  - [Hexagon Architecture](#hexagon-architecture)
+    - [References:](#references)
+    - [Principle](#principle)
+    - [Primary vs Secondary, Driver vs Driving](#primary-vs-secondary-driver-vs-driving)
+    - [Layers](#layers)
+    - [Benefits](#benefits)
+  - [Onion Architecture](#onion-architecture)
+  - [Streaming Architecture](#streaming-architecture)
 
 
 # Clean Architectures
