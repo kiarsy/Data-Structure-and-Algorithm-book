@@ -8,7 +8,7 @@
     - [Principle](#principle)
     - [Primary vs Secondary, Driver vs Driving](#primary-vs-secondary-driver-vs-driving)
     - [Layers](#layers)
-    - [Benefits](#benefits)
+    - [Pros and cons of Hexagonal Architecture](#pros-and-cons-of-hexagonal-architecture)
   - [Onion Architecture](#onion-architecture)
   - [Streaming Architecture](#streaming-architecture)
 
@@ -129,7 +129,7 @@ This layer make use of services to interact to business. ex RestController, Sock
 Infrastructure implement the secondary ports as adapters to link to external resources. ex: Database
 
 
-### Benefits
+### Pros and cons of Hexagonal Architecture
 ![alt](https://i0.wp.com/cardoai.com/wp-content/uploads/hexagonal-architecture-infographics-04.png?resize=2048%2C1864&ssl=1)
 
 **Positive features of Hexagonal Architecture**
