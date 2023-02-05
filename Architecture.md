@@ -123,10 +123,10 @@ This is because these systems are not designed for testability, the architecture
     *All the business logic is in this layer*
 2. **Application**
 
-This layer make use of services to interact to business. ex RestController, Socket, or UnitTest
+    This layer make use of services to interact to business. ex RestController, Socket, or UnitTest
 
 3. **Infrastructure**
-Infrastructure implement the secondary ports as adapters to link to external resources. ex: Database
+    Infrastructure implement the secondary ports as adapters to link to external resources. ex: Database
 
 
 ### Pros and cons of Hexagonal Architecture
