@@ -10,8 +10,11 @@
 ## Hexagon Architecture
 ![Hexagon Architecture](https://miro.medium.com/v2/resize:fit:1242/format:webp/1*9LELTYyRhtTU4oCvpZxL2Q.png)
 
-Refrences:
+References:
+
 [in Java](https://betterprogramming.pub/a-quick-and-practical-example-of-hexagonal-architecture-in-java-8d57c419250d)
+
+
 ## Onion Architecture
 ## Streaming Architecture
 
