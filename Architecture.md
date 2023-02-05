@@ -1,7 +1,7 @@
 **Table of Content**
 - [Clean Architectures](#clean-architectures)
   - [Hexagon Architecture](#hexagon-architecture)
-    - [References:](#references)
+    - [References](#references)
     - [Principle](#principle)
     - [Primary vs Secondary, Driver vs Driving](#primary-vs-secondary-driver-vs-driving)
     - [Layers](#layers)
@@ -15,7 +15,7 @@
 ## Hexagon Architecture
 ![Hexagon Architecture](https://miro.medium.com/v2/resize:fit:1242/format:webp/1*9LELTYyRhtTU4oCvpZxL2Q.png)
 
-### References:
+### References
 
 [in Java](https://medium.com/swlh/a-quick-and-practical-example-of-hexagonal-architecture-in-java-ff8984ab7756)
 
