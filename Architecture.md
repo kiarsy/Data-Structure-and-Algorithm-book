@@ -118,7 +118,7 @@ Consist of *Domain*, *primary and secondary ports* and *use cases*.
 
 Domain consist of *Entity*.
 
-Use cases can be *Service that implement primary ports*, (*Services*)
+Use cases can be *Service that implement primary ports*, (*Services*, or use case)
 
 All the business logic is in this layer
 1. Application
@@ -130,11 +130,58 @@ Infrastructure implement the secondary ports as adapters to link to external res
 
 
 ### Benefits
-We have learned the following benefits of adopting hexagonal architecture:-
+![alt](https://i0.wp.com/cardoai.com/wp-content/uploads/hexagonal-architecture-infographics-04.png?resize=2048%2C1864&ssl=1)
 
-- **Maintainability** — We build layers that are independent and loosely coupled. It becomes easy to add new features in one layer without affecting other layers.
-- **Testability** — We can write tests for each layer. Unit tests are cheap to write and fast to run. We can mock the dependencies while testing. For example:- We can mock a database dependency by adding an in-memory datastore.
-- **Adaptability** — Our core domain becomes independent of changes in external entities. For eg:- If we plan to use a different database, we don’t need to change the domain. We can introduce the appropriate database adapter. e.g DynamoDb.
+
+**Positive features of Hexagonal Architecture
+**
+
+These are the 5 main benefits of using Hexagonal Architecture as a software design pattern:
+
+1. Testability
+It is one of the main benefits of Hexagonal Architecture.
+Decoupling the business rules from external concerns such as Database, Framework, UI, and other dependencies allows you to test those business rules independently.
+
+The business rules depend on some abstractions (ports), and the concrete implementation can be easily mocked out. In turn, it facilitates the writing of automated tests and also makes the tests run faster.
+
+2. Flexibility
+This is yet another good part of this pattern. The ability to switch between different technologies is what makes this pattern a plugin-style architecture.
+As long as you have a given port, you can simply change the concrete implementations without having to touch anything inside the business rules.
+
+3. Technology agnostic
+The parts of the Hexagonal architecture that contain the technology-specific code are adapters, and adapters are the concrete implementations of the ports defined within the core domain.
+
+Having said that, the business rules source code is not affected by changes in a particular technology-specific adapter. Those changes are isolated at the adapter level.
+
+4. Deferring decisions
+When we start developing, we can focus just on business logic, deferring decisions about which framework and technology you are going to use. You can choose a technology later, and code an adapter for it.
+
+Deferring decisions is very useful in the sense that the requirements may change, and that decision about a specific technology may not be a good choice anymore.
+
+Even though deferring decisions has great benefits, it is always good to not defer them forever, only defer decisions until the last responsible moment.
+
+5. Focus on the business domain
+As we understand that the main goal is decoupling the business rules from technology-specific concerns, we can start focusing immediately on the most crucial aspect of the system, that is the business domain, and defer the technology-specific decisions to the last responsible moment.
+
+**The Cons of Hexagonal Architecture
+**
+
+The following are the not-so-good aspects of Hexagonal Architecture:
+
+1. Debugging
+Applications built using the Hexagonal Architecture pattern can be harder to debug due to not directly using concrete implementations.
+
+2. Indirection
+Indirection can add complexity. There’s a famous quote by David Weeler about indirection. “All problems in computer science can be solved by another level of indirection”. And it is extended with humor: “except for the problem of too many levels of indirection”.
+I think the extension of the quote, even though used with humor, could be considered a drawback in the context of hexagonal architecture because of the misunderstanding of what a port is, and everything that’s used much more than necessary ends up being a bad idea.
+
+3. Translation
+When the business domain is modeled independently of a database or another technology, translating between models used for persistence or communication and domain model can be awkward. This problem becomes worse when the models are fundamentally different, both technically and conceptually, from each other.
+
+4. Steep learning curve
+Contrary to traditional architectural patterns, usually forced upon developers by frameworks, hexagonal architecture has a steeper learning curve. Indirection, translation, principles, and design patterns applied to enable this architectural pattern can be challenging for relatively new software developers.
+
+
 
 ## Onion Architecture
 ## Streaming Architecture
