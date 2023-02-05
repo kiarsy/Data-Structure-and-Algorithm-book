@@ -132,9 +132,7 @@ Infrastructure implement the secondary ports as adapters to link to external res
 ### Benefits
 ![alt](https://i0.wp.com/cardoai.com/wp-content/uploads/hexagonal-architecture-infographics-04.png?resize=2048%2C1864&ssl=1)
 
-
-**Positive features of Hexagonal Architecture
-**
+**Positive features of Hexagonal Architecture**
 
 These are the 5 main benefits of using Hexagonal Architecture as a software design pattern:
 
@@ -163,8 +161,7 @@ Even though deferring decisions has great benefits, it is always good to not def
 5. Focus on the business domain
 As we understand that the main goal is decoupling the business rules from technology-specific concerns, we can start focusing immediately on the most crucial aspect of the system, that is the business domain, and defer the technology-specific decisions to the last responsible moment.
 
-**The Cons of Hexagonal Architecture
-**
+**The Cons of Hexagonal Architecture**
 
 The following are the not-so-good aspects of Hexagonal Architecture:
 
