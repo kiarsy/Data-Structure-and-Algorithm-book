@@ -1,5 +1,5 @@
 **Table of Content**
-- [Intruduction](#intruduction)
+- [Introduction](#introduction)
   - [The Pillars of Software Architecture](#the-pillars-of-software-architecture)
   - [Common challenges in building software systems](#common-challenges-in-building-software-systems)
 - [Clean Architectures](#clean-architectures)
@@ -12,7 +12,7 @@
   - [Onion Architecture](#onion-architecture)
   - [Streaming Architecture](#streaming-architecture)
 
-# Intruduction
+# Introduction
 Before diving deeper into Hexagonal Architecture, let’s clarify what Software Architecture is.
 
 There are a lot of famous experts in the software world that have come up with their own definitions of software architecture.
@@ -112,7 +112,7 @@ This is because these systems are not designed for testability, the architecture
 
 2. All the **ports and adapters** related to **outbound** with are depend on infrastructure called **Secondary**. ex. **Repository**
 ### Layers
-1. **Core**
+1. **Core** or **Domain**
   
     Consist of *Domain*, *primary and secondary ports* and *use cases*.
 
@@ -121,7 +121,7 @@ This is because these systems are not designed for testability, the architecture
     Use cases can be *Service that implement primary ports*, (*Services*, or use case)
 
     *All the business logic is in this layer*
-2. **Application**
+2. **Application** or **Framework**
 
     This layer make use of services to interact to business. ex RestController, Socket, or UnitTest
 
