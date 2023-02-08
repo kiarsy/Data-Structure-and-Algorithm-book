@@ -152,7 +152,7 @@ These are the 5 main benefits of using Hexagonal Architecture as a software desi
 It is one of the main benefits of Hexagonal Architecture.
 Decoupling the business rules from external concerns such as Database, Framework, UI, and other dependencies allows you to test those business rules independently.
 
-The business rules depend on some abstractions (ports), and the concrete implementation can be easily mocked out. In turn, it facilitates the writing of automated tests and also makes the tests run faster.
+  The business rules depend on some abstractions (ports), and the concrete implementation can be easily mocked out. In turn, it facilitates the writing of automated tests and also makes the tests run faster.
 
 2. Flexibility
 This is yet another good part of this pattern. The ability to switch between different technologies is what makes this pattern a plugin-style architecture.
@@ -161,14 +161,14 @@ As long as you have a given port, you can simply change the concrete implementat
 3. Technology agnostic
 The parts of the Hexagonal architecture that contain the technology-specific code are adapters, and adapters are the concrete implementations of the ports defined within the core domain.
 
-Having said that, the business rules source code is not affected by changes in a particular technology-specific adapter. Those changes are isolated at the adapter level.
+  Having said that, the business rules source code is not affected by changes in a particular technology-specific adapter. Those changes are isolated at the adapter level.
 
 4. Deferring decisions
 When we start developing, we can focus just on business logic, deferring decisions about which framework and technology you are going to use. You can choose a technology later, and code an adapter for it.
 
-Deferring decisions is very useful in the sense that the requirements may change, and that decision about a specific technology may not be a good choice anymore.
+  Deferring decisions is very useful in the sense that the requirements may change, and that decision about a specific technology may not be a good choice anymore.
 
-Even though deferring decisions has great benefits, it is always good to not defer them forever, only defer decisions until the last responsible moment.
+  Even though deferring decisions has great benefits, it is always good to not defer them forever, only defer decisions until the last responsible moment.
 
 5. Focus on the business domain
 As we understand that the main goal is decoupling the business rules from technology-specific concerns, we can start focusing immediately on the most crucial aspect of the system, that is the business domain, and defer the technology-specific decisions to the last responsible moment.
