@@ -202,6 +202,8 @@ Contrary to traditional architectural patterns, usually forced upon developers b
 [Article 1](https://marcoatschaefer.medium.com/onion-architecture-explained-building-maintainable-software-54996ff8e464)
 
 [Article 2](https://medium.com/expedia-group-tech/onion-architecture-deed8a554423)
+
+[Example 1](https://github.com/NilavPatel/dotnet-onion-architecture)
 ## Streaming Architecture
 
 ## Clean Architecture 
