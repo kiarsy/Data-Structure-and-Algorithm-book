@@ -11,6 +11,7 @@
     - [Primary vs Secondary, Driver vs Driving](#primary-vs-secondary-driver-vs-driving)
     - [Layers](#layers)
     - [Pros and cons of Hexagonal Architecture](#pros-and-cons-of-hexagonal-architecture)
+    - [With Domain-Driven design and CQRS](#with-domain-driven-design-and-cqrs)
   - [Onion Architecture](#onion-architecture)
   - [Streaming Architecture](#streaming-architecture)
 
@@ -187,6 +188,9 @@ When the business domain is modeled independently of a database or another techn
 4. Steep learning curve
 Contrary to traditional architectural patterns, usually forced upon developers by frameworks, hexagonal architecture has a steeper learning curve. Indirection, translation, principles, and design patterns applied to enable this architectural pattern can be challenging for relatively new software developers.
 
+### With Domain-Driven design and CQRS
+
+[Article 1](https://www.connell.dev/onion-architecture-ddd-cqrs/)
 
 
 ## Onion Architecture
