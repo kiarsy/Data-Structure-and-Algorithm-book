@@ -13,6 +13,7 @@
     - [Pros and cons of Hexagonal Architecture](#pros-and-cons-of-hexagonal-architecture)
     - [With Domain-Driven design and CQRS](#with-domain-driven-design-and-cqrs)
   - [Onion Architecture](#onion-architecture)
+    - [References](#references-1)
   - [Streaming Architecture](#streaming-architecture)
 
 # Some Basic concepts
@@ -194,5 +195,9 @@ Contrary to traditional architectural patterns, usually forced upon developers b
 
 
 ## Onion Architecture
+
+### References
+
+[Article 1](https://marcoatschaefer.medium.com/onion-architecture-explained-building-maintainable-software-54996ff8e464)
 ## Streaming Architecture
 
