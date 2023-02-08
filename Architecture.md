@@ -152,7 +152,7 @@ These are the 5 main benefits of using Hexagonal Architecture as a software desi
 It is one of the main benefits of Hexagonal Architecture.
 Decoupling the business rules from external concerns such as Database, Framework, UI, and other dependencies allows you to test those business rules independently.
 
-  The business rules depend on some abstractions (ports), and the concrete implementation can be easily mocked out. In turn, it facilitates the writing of automated tests and also makes the tests run faster.
+    The business rules depend on some abstractions (ports), and the concrete implementation can be easily mocked out. In turn, it facilitates the writing of automated tests and also makes the tests run faster.
 
 2. Flexibility
 This is yet another good part of this pattern. The ability to switch between different technologies is what makes this pattern a plugin-style architecture.
