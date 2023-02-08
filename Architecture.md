@@ -17,8 +17,8 @@
 # Some Basic concepts
 
 ## Domain events versus integration events
-- Domain Events: are events that publish to be used in another service or module or sub system of our system
-- Integration Events: are events that publish/received to/from another service outside of our system. (such as WebHooks or SignalR)
+- **Domain Events**: are events that publish to be used in another service or module or sub system of our system
+- **Integration Events**: are events that publish/received to/from another service outside of our system. (such as WebHooks or SignalR)
 
 # Introduction
 Before diving deeper into Hexagonal Architecture, let’s clarify what Software Architecture is.
