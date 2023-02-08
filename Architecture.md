@@ -4,7 +4,7 @@
 - [Introduction](#introduction)
   - [The Pillars of Software Architecture](#the-pillars-of-software-architecture)
   - [Common challenges in building software systems](#common-challenges-in-building-software-systems)
-- [Clean Architectures](#clean-architectures)
+- [Clean Architectures Related](#clean-architectures-related)
   - [Hexagon Architecture](#hexagon-architecture)
     - [References](#references)
     - [Principle](#principle)
@@ -15,6 +15,7 @@
   - [Onion Architecture](#onion-architecture)
     - [References](#references-1)
   - [Streaming Architecture](#streaming-architecture)
+  - [Clean Architecture](#clean-architecture)
 
 # Some Basic concepts
 
@@ -97,7 +98,7 @@ Some of the limited options that exist, in this complex, tightly coupled set of 
 This is because these systems are not designed for testability, the architecture is not decoupled enough, and the dependencies cannot be stubbed out for increasing test runtime.
 
 
-# Clean Architectures
+# Clean Architectures Related
 ![Clean Architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 ## Hexagon Architecture
 ![Hexagon Architecture](https://miro.medium.com/v2/resize:fit:1242/format:webp/1*9LELTYyRhtTU4oCvpZxL2Q.png)
@@ -201,3 +202,4 @@ Contrary to traditional architectural patterns, usually forced upon developers b
 [Article 1](https://marcoatschaefer.medium.com/onion-architecture-explained-building-maintainable-software-54996ff8e464)
 ## Streaming Architecture
 
+## Clean Architecture 
