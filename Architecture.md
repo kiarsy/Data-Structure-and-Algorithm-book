@@ -4,7 +4,7 @@
 - [Introduction](#introduction)
   - [The Pillars of Software Architecture](#the-pillars-of-software-architecture)
   - [Common challenges in building software systems](#common-challenges-in-building-software-systems)
-- [Clean Architectures Related](#clean-architectures-related)
+- [Domain-Driven Related](#domain-driven-related)
   - [Hexagon Architecture](#hexagon-architecture)
     - [References](#references)
     - [Principle](#principle)
@@ -98,7 +98,7 @@ Some of the limited options that exist, in this complex, tightly coupled set of 
 This is because these systems are not designed for testability, the architecture is not decoupled enough, and the dependencies cannot be stubbed out for increasing test runtime.
 
 
-# Clean Architectures Related
+# Domain-Driven Related
 ![Clean Architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 ## Hexagon Architecture
 ![Hexagon Architecture](https://miro.medium.com/v2/resize:fit:1242/format:webp/1*9LELTYyRhtTU4oCvpZxL2Q.png)
