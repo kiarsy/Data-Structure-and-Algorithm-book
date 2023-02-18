@@ -104,6 +104,10 @@ This is because these systems are not designed for testability, the architecture
 “Hexagonal Architecture”, “Clean Architecture”, “Ports and Adapters”, “Onion Architecture ”— are all different names for the same group of concepts and ideas about the ideal design of an application.
 
 
+Clean Architecture, Hexagonal Architecture, and Onion architecture all circle around fundamentally the same concept, but with different language and nuances. We’ll take a look at what makes them similar and different.
+
+As background, all share the concept of externalizing infrastructural details, data storage, and user interface and pushing them to the edges of your application as opposed to building your application around those pieces.
+
 
 
 ## Hexagon Architecture
