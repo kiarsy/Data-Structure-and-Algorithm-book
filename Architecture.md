@@ -99,6 +99,7 @@ This is because these systems are not designed for testability, the architecture
 
 
 # Domain-Driven Related
+[Article 1](https://medium.com/p/9ad94a27da91)
 ## Hexagon Architecture
 ![Hexagon Architecture](https://miro.medium.com/v2/resize:fit:1242/format:webp/1*9LELTYyRhtTU4oCvpZxL2Q.png)
 
