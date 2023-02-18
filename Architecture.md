@@ -14,7 +14,7 @@
     - [With Domain-Driven design and CQRS](#with-domain-driven-design-and-cqrs)
   - [Onion Architecture](#onion-architecture)
     - [References](#references-1)
-  - [Streaming Architecture](#streaming-architecture)
+  - [Screaming Architecture](#screaming-architecture)
   - [Clean Architecture](#clean-architecture)
 
 # Some Basic concepts
@@ -206,6 +206,6 @@ Contrary to traditional architectural patterns, usually forced upon developers b
 [Article 3](https://medium.com/expedia-group-tech/onion-architecture-deed8a554423)
 
 [Example 1](https://github.com/NilavPatel/dotnet-onion-architecture)
-## Streaming Architecture
+## Screaming Architecture
 
 ## Clean Architecture 
