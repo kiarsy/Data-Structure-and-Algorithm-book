@@ -14,8 +14,8 @@
     - [With Domain-Driven design and CQRS](#with-domain-driven-design-and-cqrs)
   - [Onion Architecture](#onion-architecture)
     - [References](#references-1)
-  - [Screaming Architecture](#screaming-architecture)
   - [Clean Architecture](#clean-architecture)
+  - [Screaming Architecture](#screaming-architecture)
 
 # Some Basic concepts
 
@@ -99,7 +99,6 @@ This is because these systems are not designed for testability, the architecture
 
 
 # Domain-Driven Related
-![Clean Architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 ## Hexagon Architecture
 ![Hexagon Architecture](https://miro.medium.com/v2/resize:fit:1242/format:webp/1*9LELTYyRhtTU4oCvpZxL2Q.png)
 
@@ -206,6 +205,8 @@ Contrary to traditional architectural patterns, usually forced upon developers b
 [Article 3](https://medium.com/expedia-group-tech/onion-architecture-deed8a554423)
 
 [Example 1](https://github.com/NilavPatel/dotnet-onion-architecture)
-## Screaming Architecture
 
 ## Clean Architecture 
+![Clean Architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
+
+## Screaming Architecture
