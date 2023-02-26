@@ -5,4 +5,4 @@
 
 2. [Architecture](./Architecture.md)
 
-3. [Good Articles](./GoodArticles.md)
+3. [Good Articles](./GoodStuff.md)
