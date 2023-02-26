@@ -16,6 +16,13 @@
     - [References](#references-1)
   - [Clean Architecture](#clean-architecture)
   - [Screaming Architecture](#screaming-architecture)
+- [Event-Driven Architecture](#event-driven-architecture)
+- [SOA (Service Oriented Architecture)](#soa-service-oriented-architecture)
+- [Microservices Architecture](#microservices-architecture)
+- [Microkernel Architecture](#microkernel-architecture)
+- [Space-Based Architecture](#space-based-architecture)
+- [Pipe-Filter Architecture Pattern](#pipe-filter-architecture-pattern)
+- [Micro Front End](#micro-front-end)
 
 # Some Basic concepts
 
@@ -133,7 +140,7 @@ As background, all share the concept of externalizing infrastructural details, d
 
 2. All the **ports and adapters** related to **outbound** with are depend on infrastructure called **Secondary**. ex. **Repository**
 ### Layers
-1. **Core** or **Domain**
+1.**Domain**
   
     Consist of *Domain*, *primary and secondary ports* and *use cases*.
 
@@ -142,11 +149,10 @@ As background, all share the concept of externalizing infrastructural details, d
     Use cases can be *Service that implement primary ports*, (*Services*, or use case)
 
     *All the business logic is in this layer*
-2. **Application** or **Framework**
-
+1. **Application** 
     This layer make use of services to interact to business. ex RestController, Socket, or UnitTest
 
-3. **Infrastructure**
+2. **Infrastructure** or **Framework**
 
     Infrastructure implement the secondary ports as adapters to link to external resources. ex: Database
 
@@ -221,3 +227,19 @@ Contrary to traditional architectural patterns, usually forced upon developers b
 ![Clean Architecture](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
 
 ## Screaming Architecture
+
+# Event-Driven Architecture
+
+# SOA (Service Oriented Architecture)
+
+# Microservices Architecture
+
+# Microkernel Architecture
+
+# Space-Based Architecture
+
+# Pipe-Filter Architecture Pattern
+
+# Micro Front End
+
+
