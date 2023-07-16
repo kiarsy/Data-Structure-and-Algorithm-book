@@ -8,7 +8,7 @@
       - [Dynamic Programming](#dynamic-programming)
       - [Divide and Conquer](#divide-and-conquer)
       - [Backtracking](#backtracking)
-      - [Bitmask](#Bitmask))
+      - [Bitmask](#Bitmask)
     - [Frequency Counter](#frequency-counter)
     - [Multiple Pointers](#multiple-pointers)
     - [Sliding Window](#sliding-window)
@@ -304,7 +304,7 @@ Example:
 <!-- TODO: Code Examples -->
 
 #### Bitmask
-[Article 1]([https://youtu.be/Peq4GCPNC5c?t=1602](https://towardsdatascience.com/understanding-bitmask-for-the-coding-interview-b1643f4b0e24))
+[Article 1](https://towardsdatascience.com/understanding-bitmask-for-the-coding-interview-b1643f4b0e24)
 
 
 ### Frequency Counter
